@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Dv_Contenido{
+    background-color: #dfdfdf;
+    width: 100%;
+}
+.BodyLogin{
+
+    background: linear-gradient(#214B74,#235D93,#2271b3,#5687c0,#5687c0,#7C9ECC,#9EB5D9);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#CardLogin{
+    margin-top: 3%;
+    width: 40%;     
+    border-radius: 25px;
+    background: linear-gradient(#214B74,#235D93,#2271b3,#5687c0,#5687c0,#7C9ECC,#9EB5D9);           
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#BtnIngresar{
+    background-color: #235D93;
+}
+#BtnIngresar:hover{
+    background-color: #1E3956;
+}
+#Card{
+
+    box-shadow: 10px 10px 5px grey; 
+}
+.circle{
+    width: 50px;
+    height: 50px;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    margin-left: -18rem;
+    transition: margin .25s ease-in-out;
+    background: linear-gradient(#214B74,#235D93,#2271b3,#5687c0,#5687c0,#7C9ECC,#9EB5D9);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 100;
+}
+
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+    font-size: 1.2rem;
+
+}
+#sidebar-container a{
+    background: linear-gradient(#214B74,#235D93,#2271b3,#5687c0,#5687c0,#7C9ECC,#9EB5D9);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: pointer;
+}
+#sidebar-container a:hover{
+    background:#214B74 ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+
+}
+#content-wrapper.toggled #sidebar-container{
+    margin-left: 0;
+
+}
+#TituloLogin{
+    color: red;
+
+}
+#ImpUsuario{
+    border-radius: 10px;
+
+}
+#ImpPasword{
+    border-radius: 10px;
+}
+.FotoPerfil{
+    max-width: 100%;
+    max-height: 35px;
+
+}
+.FotoPerfil2{
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 40%;
+    overflow: hidden;
+}
+  #CardSala{
+
+        margin-left: 6px;
+        
+    }
+@media (max-width: 768px){
+    #sidebar-container{
+        margin-right: 0;
+
+    }
+    #page-container{
+        min-width: 0;
+        width: 100%;
+    }
+    #content-wrapper.toggled #sidebar-container{
+        margin-left: -18rem;
+    }
+    #CardLogin{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .FotoPerfil{
+        max-width: 40px;
+        max-height: 40px;
+        padding-top: 10px;
+        margin-left: 22%;
+    }
+    #TablaUsuario{
+        padding-right: 25%;
+    }
+
+    #Dv_Contenido{
+        width: 100%;
+    }
+    #CardSala{
+
+        margin-left: -6px;
+        margin-top: 5px;
+    }
+}
+
+
+
